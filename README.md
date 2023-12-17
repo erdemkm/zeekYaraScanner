@@ -171,6 +171,14 @@ Daily Insecure Picus match=1
 
 Under the 'logs' directory, there are alert logs and general logs. These logs can be forwarded to any SIEM (Security Information and Event Management) product for analysis.
 
+## Yara Rule Files
+
+A yara rule file can be stored under the "rules" directory. All yara rules should be in a single file.
+
+## To-Do List
+
+- Yara rules will be automatically fetched and updated from the specified sources
+
 ## License
 
 This project is licensed under the MIT License. See the [License File](LICENSE) for details.
