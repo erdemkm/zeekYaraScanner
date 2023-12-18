@@ -3,7 +3,7 @@
 __author__ = "Erdem Kucukmustafa"
 
 ### Yara Configuration
-yara_rule_file = "rules/rule.yar" # Yara rule file path
+yara_rule_file = "rules/rules.yar" # Yara rule file path
 yara_scan_dir = "/opt/zeek/extracted" # zeek file extract path
 max_file_size_mb = 20 # max file size for files to scan
 match_timeout = 60 # timeout in seconds
