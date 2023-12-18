@@ -155,11 +155,11 @@ class yaraScanner:
 					sha256 = line.split('sha256=')[1].split(',')[0]
 					total_picusalert_count[sha256] += 1
 
-				if current_time - log_time <= timedelta(weeks=1):
-					weekly_picusalert_count[sha256] += 1
+					if current_time - log_time <= timedelta(weeks=1):
+						weekly_picusalert_count[sha256] += 1
 
-				if current_time - log_time <= timedelta(days=1):
-					daily_picusalert_count[sha256] += 1
+					if current_time - log_time <= timedelta(days=1):
+						daily_picusalert_count[sha256] += 1
 
 		total_yara_match = sum(1 for count in total_yaraalert_count.values() if count > 0)
 		weekly_yara_match = sum(1 for count in weekly_yaraalert_count.values() if count > 0)
