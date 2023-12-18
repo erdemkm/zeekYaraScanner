@@ -162,7 +162,7 @@ Daily yara match=1
 ---------- Total, Weekly, Daily Picus Insecure Result for Yara Matching (group by sha256) ----------
 
 Total Insecure Picus match=2
-Weekly Insecure Picus match=3
+Weekly Insecure Picus match=2
 Daily Insecure Picus match=1
 
 ```
