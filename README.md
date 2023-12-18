@@ -16,7 +16,7 @@ At the same time, by integrating with Picus, it is possible to simulate and anal
 
 ## Features
 
-- File Scanning with YARA Rules
+- File Scanning with YARA Rules (Extracted from Zeek File Analysis Framework)
 - YARA Matching Results Logging
 - Statistical Analysis Data
 - Integration with Picus
