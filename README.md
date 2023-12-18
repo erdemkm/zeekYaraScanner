@@ -178,6 +178,8 @@ A yara rule file can be stored under the "rules" directory. All yara rules shoul
 ## To-Do List
 
 - Yara rules will be automatically fetched and updated from the specified sources
+- Improve statistical analysis data
+- Send notification for matching files
 
 ## License
 
